@@ -1,0 +1,3 @@
+set_attributes 'div#main-image'
+attributes :id => 'product-image'
+sequence :after => 'surround_image_with_anchor_to_large_image'
