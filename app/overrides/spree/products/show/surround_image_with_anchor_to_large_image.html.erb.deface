@@ -1,3 +1,3 @@
 <!-- surround_contents 'div#main-image' -->
 <erb silent> image = @product.images.first </erb>
-<a data-erb-href="&lt;%= image.attachment.url(:original) %&gt;" class="MagicZoomPlus" id="large-image" rel="selectors-change:mouseover; selectors-effect:pounce; selectors-mouseover-delay:100; zoom-position:inner"><erb loud> render_original </erb></a>
+<a data-erb-href="&lt;%= image.attachment.url(:original) %&gt;" class="MagicZoomPlus" id="zoom" rel="selectors-change:click; selectors-effect:fade; selectors-mouseover-delay:100; zoom-position:inner"><erb loud> render_original </erb></a>
